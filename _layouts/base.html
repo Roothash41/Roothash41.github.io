@@ -21,12 +21,6 @@ common-js:
   {% include head.html %}
   
   <body>
-
-    {% include gtm_body.html %}
-  
-    {% include nav.html %}
-
-    {{ content }}
         <script type="text/javascript" src="/js/jquery-1.11.2.min.js"></script>  
     <script type="text/javascript">
       $(function() {
@@ -41,6 +35,12 @@ common-js:
           });
       });
     </script>
+    {% include gtm_body.html %}
+  
+    {% include nav.html %}
+
+    {{ content }}
+
     <div class="go-top">
         <div class="arrow"></div>
         <div class="stick"></div>
