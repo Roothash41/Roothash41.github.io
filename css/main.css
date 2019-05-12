@@ -789,12 +789,12 @@ td.gutter {
 }
 /* top button */
 #back-to-top {
-    background-color: #00CD00;
+    background-color: transparent;
     bottom: 0;
-    box-shadow: 0 0 6px #00CD00;
+    /*box-shadow: 0 0 6px #00CD00;*/
     color: #444444;
     padding: 10px 10px;
     position: fixed;
-    right: 50px;
+    right: 100px;
     cursor: pointer;
 }
