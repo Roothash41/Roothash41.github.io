@@ -791,7 +791,7 @@ td.gutter {
 /* 此css应写在head.html内
     参考https://www.jianshu.com/p/5bac35c3dc72
     样式来自于https://www.liaoxuefeng.com/article/895922498171008
-
+*/
 div.go-top {
     display: none;
     opacity: 0.6;
@@ -835,4 +835,3 @@ div.go-top div.stick {
     -moz-border-radius: 1px;
     border-radius: 1px;
 }
-*/
