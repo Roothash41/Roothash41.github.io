@@ -21,16 +21,16 @@ common-js:
   {% include head.html %}
   
   <body>
-
+    <div class="go-top" style="display: none;">
+        <div class="arrow"></div>
+        <div class="stick"></div>
+    </div>
     {% include gtm_body.html %}
   
     {% include nav.html %}
 
     {{ content }}
-    <div class="go-top">
-        <div class="arrow"></div>
-        <div class="stick"></div>
-    </div>
+
     {% include footer.html %}
   
     {% include footer-scripts.html %}
