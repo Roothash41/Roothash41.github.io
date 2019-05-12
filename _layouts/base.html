@@ -27,7 +27,12 @@ common-js:
     {% include nav.html %}
 
     {{ content }}
-<span id="back-to-top"><a href="#top">TOP</a></span>
+    
+    <div class="go-top">
+        <div class="arrow"></div>
+        <div class="stick"></div>
+    </div>
+    
     {% include footer.html %}
   
     {% include footer-scripts.html %}
@@ -35,3 +40,17 @@ common-js:
 <script type="text/javascript" src="/js/love.js"></script>
   </body>
 </html>
+
+<script>
+$(function() {
+    $(window).scroll(function() {
+        if ($(window).scrollTop() > 1000)
+            $('div.go-top').show();
+        else
+            $('div.go-top').hide();
+    });
+    $('div.go-top').click(function() {
+        $('html, body').animate({scrollTop: 0}, 1000);
+    });
+});
+</script>
