@@ -27,24 +27,24 @@ common-js:
     {% include nav.html %}
 
     {{ content }}
-    <script type="text/javascript" src="/js/jquery-1.11.2.min.js"></script>  
-<script type="text/javascript">
-  $(function() {
-      $(window).scroll(function() {
-          if ($(window).scrollTop() > 1000)
-              $('div.go-top').show();
-          else
-              $('div.go-top').hide();
-      });
-      $('div.go-top').click(function() {
-          $('html, body').animate({scrollTop: 0}, 1000);
-      });
-  });
-</script>
     <div class="go-top">
         <div class="arrow"></div>
         <div class="stick"></div>
     </div>
+    <script src="/js/jquery-1.11.2.min.js"></script>  
+    <script>
+      $(function() {
+          $(window).scroll(function() {
+              if ($(window).scrollTop() > 1000)
+                  $('div.go-top').show();
+              else
+                  $('div.go-top').hide();
+          });
+          $('div.go-top').click(function() {
+              $('html, body').animate({scrollTop: 0}, 1000);
+          });
+      });
+    </script>
     
     {% include footer.html %}
   
