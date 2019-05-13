@@ -12,7 +12,7 @@ baseurl: ""
 #baseurl: "/projectname"
 
 # Of course don't forget to change the username and projectname to YOUR username and project
-
+locale : "zh-CN"
 # Name of website
 title: zzzxy
 
