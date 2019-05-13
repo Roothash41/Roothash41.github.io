@@ -10,7 +10,8 @@ new Valine({
     appId: '{{ site.valine_comment.appid }}',
     appKey: '{{ site.valine_comment.appkey }}',
     notify: false, 
-    verify: false, 
+    verify: true,
+    recordIP : true,
     visitor: true,
     avatar: 'mp', 
     placeholder: '{{ site.valine_comment.placeholder }}' 
