@@ -51,7 +51,8 @@
   -moz-transform: translateY(-500px);
   -ms-transform: translateY(-500px);
   transform: translateY(-500px);
-  pointer-events: none;
+  /*pointer-events: none;*/
+  pointer-events: auto;
 }
 #rocket.launch i {
   background-position: 50% 100%;
