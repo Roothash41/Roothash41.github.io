@@ -1,5 +1,5 @@
 $(window).scroll(function() {
-    $(window).scrollTop() > $(window).height()*0.5 ? $("#rocket").addClass("show") : $("#rocket").removeClass("show");
+    $(window).scrollTop() > 100 ? $("#rocket").addClass("show") : $("#rocket").removeClass("show");
 });
 
 $("#rocket").click(function() {
