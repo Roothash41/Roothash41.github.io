@@ -10,6 +10,7 @@ tag:
 image: /img/mario-png/Cherry Bonus.png
 ---
 ## 背景
+---
 * 目录
 {:toc}
 ## 正文
@@ -22,14 +23,16 @@ image: /img/mario-png/Cherry Bonus.png
 > 三级演示内容
 
 #### 四级标题
-
+---
 - A
 - B
 - C
 
 ##### 五级标题
+---
 
-这是分割线上面的内容
-***
+这是分割线上部分内容
+
+-------
 这是分割线下部分内容
 
