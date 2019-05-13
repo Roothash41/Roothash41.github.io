@@ -14,8 +14,8 @@
 }
 @media mq-mobile {
   #rocket {
-    right: 12px;
-    bottom: 20px;
+    right: 6px;
+    bottom: 10px;
   }
 }
 #rocket i {
