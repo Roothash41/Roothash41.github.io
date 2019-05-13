@@ -148,6 +148,12 @@ staticman:
     siteKey  : # Use your own site key, you need to apply for one on Google
     secret   : # ENCRYPT your password by going to https://staticman3.herokuapp.com/v3/encrypt/<your-site-secret>
 
+# valine comment
+valine_comment:
+    enable: true
+    appid: WHltQpJhoYPA6FuqN7LWojOP-gzGzoHsz
+    appkey: jNryyYzdeCFduGVUT42732Fr
+    placeholder: "Just go go"
 # --- Misc --- #
 
 # Facebook App ID
