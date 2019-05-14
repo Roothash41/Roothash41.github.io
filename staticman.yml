@@ -43,10 +43,34 @@ comments:
   # with a `type` property, which configures the generated field, or any value
   # to be used directly (e.g. a string, number or array)
   generatedFields:
-    date:
-      type: "date"
+#    date:
+#      type: "date"
+#      options:
+#        format: "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
+    authType:
+      type: user
       options:
-        format: "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
+        property: "type"
+    email:
+      type: user
+      options:
+        property: "email"
+    username:
+      type: user
+      options:
+        property: "username"
+    name:
+      type: user
+      options:
+        property: "name"
+    siteUrl:
+      type: user
+      options:
+        property: "siteUrl"
+    date:
+      type: date
+      options:
+        format: "iso8601"
 
   # Whether entries need to be approved before they are published to the main
   # branch. If set to `true`, a pull request will be created for your approval.
