@@ -31,9 +31,5 @@ image: /img/mario-png/Cherry Bonus.png
 ##### 五级标题
 ---
 
-这是分割线上部分内容
-
--------
-这是分割线下部分内容
 
 $$x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}$$
