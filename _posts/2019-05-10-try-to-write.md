@@ -36,3 +36,4 @@ image: /img/mario-png/Cherry Bonus.png
 -------
 这是分割线下部分内容
 
+$$x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}$$
