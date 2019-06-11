@@ -84,7 +84,6 @@ social-network-links:
 #  github: daattali
 #  twitter: daattali
 #  reddit: yourname
-#  google-plus: +DeanAttali
 #  linkedin: daattali
 #  xing: yourname
 #  stackoverflow: "3943160/daattali"
@@ -101,7 +100,6 @@ social-network-links:
 share-links-active:
   twitter: false
   facebook: false
-  google: false
   linkedin: false
 
 # How to display the link to the website in the footer
@@ -155,7 +153,7 @@ valine_comment:
     enable: true
     appid: WHltQpJhoYPA6FuqN7LWojOP-gzGzoHsz
     appkey: jNryyYzdeCFduGVUT42732Fr
-    placeholder: "åœ¨è¿™é‡Œå†™ä¸‹è¯„è®ºå§ï¼ˆæ”¯æŒMarkdownï¼‰ â€”â€” Rayxon"
+    placeholder: "ÔÚÕâÀïĞ´ÏÂÆÀÂÛ°É£¨Ö§³ÖMarkdown£© ¡ª¡ª Rayxon"
 # --- Misc --- #
 
 # Facebook App ID
