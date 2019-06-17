@@ -17,7 +17,7 @@ tags: [jekyll, github]
     
     为避免出现组件/环境缺失，选择包含开发套件的安装包 **`Ruby+Devkit 2.5.5-1(x64) `**（如果版本更新，就选择右侧说明推荐的版本）。
 
-    ![Rubyinstaller](https://raw.githubusercontent.com/Roothash41/imgContent/master/post/20190617124010.png)
+    ![Rubyinstaller](https://img.lausdeo.cf/post/rubyinstaller.png)
 
 2. Rubyinstaller 安装要点
 
@@ -26,11 +26,11 @@ tags: [jekyll, github]
     - 勾选MSYS2
     - 安装完成后，勾选 `Run 'ridk install' to ...`
 
-    ![安装要点](https://raw.githubusercontent.com/Roothash41/imgContent/master/post/mysy2.png)
+    ![安装要点](https://img.lausdeo.cf/post/mysy2.png)
 
 3. Finish 后，弹出如下命令行安装界面。
 
-    ![命令行安装界面](https://raw.githubusercontent.com/Roothash41/imgContent/master/post/finish.png)
+    ![命令行安装界面](https://img.lausdeo.cf/post/finish.png)
 
     - 安装`3`。
     - `Install MSYS2 and MINGW development toolchain succeeded`，则安装成功。
