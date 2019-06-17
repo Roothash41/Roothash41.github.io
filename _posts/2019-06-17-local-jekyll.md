@@ -1,7 +1,10 @@
 ---
 layout: post
+published: true
 title: Jekyll 本地环境
 subtitle: 搭建步骤记录
+author: xd
+date: '2019-06-17'
 image: https://jekyllcn.com/img/logo-2x.png
 tags: [jekyll, github]
 ---
