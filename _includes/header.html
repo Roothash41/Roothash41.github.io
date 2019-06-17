@@ -43,7 +43,7 @@
 			{% if author %}
 				<span class="post-meta">
 				<!-- Personal Info. -->
-				Posted on {{ page.date | date: "%Y-%m-%d" }} by {{ author.name }} · {{ page.content | strip_html | strip_newlines | split: "" | size }} words
+				Posted on {{ page.date | date: "%Y-%m-%d" }} by {{ author.name }}
 				<!-- 
 				Posted on {{ page.date | date: "%Y-%m-%d" }} by <a href="{{ author.web }}" target="_blank">{{ author.name }}</a>
 				-->
@@ -51,7 +51,7 @@
 			{% else %}
 				<span class="post-meta">
 				<!-- Personal Info. -->
-				Posted on {{ page.date | date: "%Y-%m-%d" }} · {{ page.content | strip_html | strip_newlines | split: "" | size }} words
+				Posted on {{ page.date | date: "%Y-%m-%d" }}
 				</span>
 			{% endif %}
 		
@@ -90,7 +90,7 @@
 			{% if author %}
 				<span class="post-meta">
 				<!-- Personal Info. -->
-				Posted on {{ page.date | date: "%Y-%m-%d" }} by {{ author.name }} · {{ page.content | strip_html | strip_newlines | split: "" | size }} words
+				Posted on {{ page.date | date: "%Y-%m-%d" }} by {{ author.name }}
 				<!-- 
 				Posted on {{ page.date | date: "%Y-%m-%d" }} by <a href="{{ author.web }}" target="_blank">{{ author.name }}</a>
 				-->
@@ -98,7 +98,7 @@
 			{% else %}
 				<span class="post-meta">
 				<!-- Personal Info. -->
-				Posted on {{ page.date | date: "%Y-%m-%d" }} · {{ page.content | strip_html | strip_newlines | split: "" | size }} words
+				Posted on {{ page.date | date: "%Y-%m-%d" }}
 				</span>
 			{% endif %}
 			<!-- span id="busuanzi_container_page_pv" class="post-meta">
