@@ -17,7 +17,7 @@ tags: [jekyll, github]
     
     为避免出现组件/环境缺失，选择包含开发套件的安装包 **`Ruby+Devkit 2.5.5-1(x64) `**（如果版本更新，就选择右侧说明推荐的版本）。
 
-    ![Rubyinstaller](https://sway.office.com/s/hxL5OmoIRO0slVIo/images/1vWtuKLaTaIpeY?quality=470)
+    ![Rubyinstaller](https://raw.githubusercontent.com/Roothash41/imgContent/master/post/20190617124010.png)
 
 2. Rubyinstaller 安装要点
 
@@ -26,16 +26,14 @@ tags: [jekyll, github]
     - 勾选MSYS2
     - 安装完成后，勾选 `Run 'ridk install' to ...`
 
-    ![](https://sway.office.com/s/hxL5OmoIRO0slVIo/images/Zc7_AL1kulIjTS?quality=499)
+    ![安装要点](https://raw.githubusercontent.com/Roothash41/imgContent/master/post/mysy2.png)
 
 3. Finish 后，弹出如下命令行安装界面。
 
-    ![](https://sway.office.com/s/hxL5OmoIRO0slVIo/images/RxfAIuKpu7cXgL?quality=576)
+    ![命令行安装界面](https://raw.githubusercontent.com/Roothash41/imgContent/master/post/finish.png)
 
     - 安装`3`。
-    - 出现`Install MSYS2 and MINGW development toolchain succeeded`
-    
-        即为安装成功。
+    - `Install MSYS2 and MINGW development toolchain succeeded`，则安装成功。
     - cmd中，`ridk install`可重新打开安装界面。
 
 4. cmd中，`ruby -v`查看是否安装成功。
@@ -49,18 +47,15 @@ tags: [jekyll, github]
 
 1.  替换 gem 默认源为[清华镜像源](https://mirror.tuna.tsinghua.edu.cn/help/rubygems/)。
 
-2. `gem install jekyll`。
-
+2. `gem install jekyll`。  
     _显示`** gems installed`即可。_
 
-3.  cd 至博客文件夹下， `gem install bundler`。
-
+3.  cd 至博客文件夹下， `gem install bundler`。  
     _显示`** gems installed`即可。_
 
 4.  替换 bundler 默认源为[清华镜像源](https://mirror.tuna.tsinghua.edu.cn/help/rubygems/)。
 
-5.  `bundle install`。如遇错误，按提示update或安装缺失/依赖文件。
-
+5.  `bundle install`。如遇错误，按提示update或安装缺失/依赖文件。  
     _显示`Bundle complete!`即可。_
 
 6.  `bundle exec jekyll serve`。显示`Server running`时，[127.0.0.1:4000](http://127.0.0.1:4000/)可运行。
