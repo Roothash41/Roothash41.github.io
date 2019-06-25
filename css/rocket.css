@@ -1,7 +1,7 @@
 #rocket {
   position: fixed;
   right: 20px;
-  bottom: 20px;
+  bottom: 50px;
   display: block;
   visibility: hidden;
   width: 42px;
@@ -15,7 +15,7 @@
 @media mq-mobile {
   #rocket {
     right: 6px;
-    bottom: 10px;
+    bottom: 20px;
   }
 }
 #rocket i {
