@@ -23,7 +23,7 @@ title: 'Tag Index'
     <div class="post-list">
         {%- for post in site.tags[tag] -%}
             <div class="tag-entry">
-                <a href="{{- site.url -}}{{- post.url -}}">{{- post.title -}}</a>
+                <a href="{{ post.url | relative_url }}">{{- post.title -}}</a>
                 <div class="entry-date">
                     <!-- Look the author details up from the site config. -->
                     {% assign author = site.data.authors[post.author] %}

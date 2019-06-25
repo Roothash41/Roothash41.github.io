@@ -1,23 +1,22 @@
 # --- General options --- #
 
-# url is the full website URL
-# baseurl is the website's URL without the hostname
-
-# If you are building a simple GitHub user page (https://username.github.io) then use these settings:
 url: "https://zzzxy.xyz"
-baseurl: ""
-
-# If you are building a GitHub project page then use these settings:
-#url: "http://username.github.io/projectname"
-#baseurl: "/projectname"
-
-# Of course don't forget to change the username and projectname to YOUR username and project
 locale : "zh-CN"
 # Name of website
 title: zzzxy
 
 # Short description of your site
 description: Lucky to meet you
+
+# --- Local development options ---
+# If your website is hosted locally rather than on GitHub, then you need to uncomment the next two parameters to set the url and baseurl
+# *** If you're not sure what this mean, then leave this section as it is. Only modify the url and baseurl if you know what you're doing!***
+
+# url is the the website domain URL without a trailing slash
+#url: "https://example.com"
+
+# baseurl should be an empty string
+#baseurl: ""
 
 # --- Navigation bar options --- #
 
@@ -153,7 +152,7 @@ valine_comment:
     enable: true
     appid: WHltQpJhoYPA6FuqN7LWojOP-gzGzoHsz
     appkey: jNryyYzdeCFduGVUT42732Fr
-    placeholder: "在这里写下评论吧（支持Markdown） —— Rayxon"
+    placeholder: "You can comment here . "
 # --- Misc --- #
 
 # Facebook App ID
