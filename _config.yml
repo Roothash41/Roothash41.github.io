@@ -22,7 +22,7 @@ description: Lucky to meet you
 
 # List of links in the navigation bar
 navbar-links:
-  Home: ""
+  Home: "index"
   About: "aboutme"
   Tags: "tags"
 #  Category: "category"
